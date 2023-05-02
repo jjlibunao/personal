@@ -13,3 +13,6 @@ In my Data Structures and Algorithms course, we were tasked with writing two in-
 
 ## Stroke Prediction
 This was a personal project I did in my spare time to practice with different classification models (Logistic Regression, Linear Support Vector Machines, Decision Tree Classifier, Random Forest Classifier, Gradient Boosting Classifier). Using a medical dataset containing patient data, the goal was to predict whether a patient was likely to have a stroke or not.
+
+## Spotify Recommender App
+I created a basic Spotify recommender app using the Spotify API and Streamlit. The app asks you for a song and it will output 10 related songs. I am in the process of trying to add a button to add it as a playlist to your library. 
