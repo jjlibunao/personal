@@ -7,6 +7,11 @@ from Object import Object
 
 application = Flask(__name__)
 
+@application.after_request
+def add_header(response):
+    response.headers['Vary'] = 'Cookie'
+    return response
+
 @application.route('/')
 def index():
     return render_template('upload.html')
