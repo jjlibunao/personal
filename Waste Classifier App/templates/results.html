@@ -1,0 +1,76 @@
+{% extends 'home.html' %}
+
+{% block title %}Results{% endblock %}
+{% block content %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title >Waste Classification Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <style>
+      .container {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center
+      }
+
+      .result-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 30px;
+      }
+
+      .result,
+      .probability {
+        text-align: center;
+}
+
+      button[type=submit] {
+        border: none;
+        border-radius: 5px;
+        background-color: #eceada;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        padding: 0px 0px;
+        transition: all 0.3s ease-in-out;
+      }
+      .classify-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+      }
+
+    .centered {
+      position: absolute;
+    } 
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1 style="color:#735e59;font-family:YAEnTI0o408-0;font-weight:700;">Waste Classification Results</h1>
+      <div class="result-container">
+        <img src="data:image/png;base64,{{ image_data_uri }}" id="uploaded-image" style="max-width: 50%; max-height: 50%;">
+        <div class="educational-text" style="color:#735e59;font-family:YAEnTI0o408-0;">{{ educational_text }}</div>
+      </div>
+      <div class="result" style="color:#735e59;font-family:YAEnTI0o408-0;font-weight:700;">Label: {{ object.label }}</div>
+      <div class="probability" style="color:#735e59;font-family:YAEnTI0o408-0;font-weight:700;">Probability: {{ object.probability }}</div>
+      <div class="result" style="color:#735e59;font-family:YAEnTI0o408-0;font-weight:700;">Suggested bin: {{ object.bin }}</div>
+      <form action="/" method="get">
+        <button type="submit">
+          <div class="classify-container">
+            <img src="/static/classify_button.svg" alt="New Upload Button" style="width:200px">
+            <div class="centered" style="font-size:17px">UPLOAD NEW IMAGE</div>
+          </div> 
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
+{% endblock %}
