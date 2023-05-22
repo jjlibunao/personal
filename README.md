@@ -9,6 +9,7 @@
 - [Algorithm Reports](#algorithm-reports)
 - [Stroke Prediction](#stroke-prediction)
 - [Spotify Recommendation App](#spotify-recommendation-app)
+- [MLOps Project and Slide Deck](#mlops-project)
 
 ## Introduction <a name="introduction"></a>
 This is my personal repository for projects I worked on during my time as a USF MSDS student that were allowed to be published or just projects I worked on in my own spare time. Please feel free to ask me about other projects I worked on in the program that were not allowed to be published, as I have many more that I would like to share, but due to plagiarism concerns for future cohorts I am not allowed to share them here. I would be happy to share sample code in those instances upon request. 
@@ -32,3 +33,7 @@ This was a personal project I did in my spare time to practice with different cl
 
 ## Spotify Recommendation App <a name="spotify-recommendation-app"></a>
 I created a basic Spotify recommender app using the Spotify API and Streamlit. The app asks you for a song and it will output 10 related songs. I am in the process of trying to add a button to add it as a playlist to your library. 
+
+## MLOps Pipeline Project
+#### Related class: Machine Learning Operations
+In a team of 4, we researched and used many different ML tools for experiment and artifact tracking, data versioning, data quality, model orchestration, model deployment, app development, model monitoring, and CI/CD. After working with all of the tools, we chose one tool for each stage to build an overall MLOps pipeline for the business case of predicting e-commerce sales of summer clothes, and then presented it to our professor who was acting as the CTO of the company.
