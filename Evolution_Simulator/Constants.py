@@ -1,0 +1,41 @@
+import pygame
+
+SPEED = 15
+ 
+# Window size
+WINDOW_WIDTH = 1440
+WINDOW_HEIGHT = 960
+ 
+# defining colors
+COLOR_BLACK = pygame.Color(0, 0, 0)
+COLOR_WHITE = pygame.Color(255, 255, 255)
+COLOR_RED = pygame.Color(255, 0, 0)
+COLOR_GREEN = pygame.Color(0, 255, 0)
+COLOR_BLUE = pygame.Color(0, 0, 255)
+COLOR_BROWN = pygame.Color(125, 67, 33)
+
+# simulation parameters
+CREATURE_COUNT = 100
+CREATURE_LIMIT = 10
+NUM_MIN_CREATURES = 1
+PLANT_COUNT = 300
+NUM_MIN_PLANTS = 30
+
+# plant attributes
+PLANT_REPRODUCTION_AGE = 500
+PLANT_SIZE = 5
+
+
+# creature attributes
+CREATURE_SIZE = 10
+MAX_ENERGY = 500
+MAX_SPEED = 5
+MAX_TURN_RATE = 10
+MUTATION_RATE = .05
+PLANT_EFFICIENCY = .01
+MEAT_EFFICIENCY = .5
+
+SIGHT_LENGTH = 100
+SIZE_MIN_MAX = (5, 10)
+DEGREE_SPREAD = 5
+NUM_SIGHT_LINES = 7
