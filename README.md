@@ -7,6 +7,7 @@
 - [Reddit Data Pipeline](#reddit-data-pipeline)
 - [Waste Classifier App](#waste-classifier-app)
 - [Algorithm Reports](#algorithm-reports)
+- [Evolution Simulator](#evolution-simulator)
 - [Stroke Prediction](#stroke-prediction)
 - [Spotify Recommendation App](#spotify-recommendation-app)
 
@@ -26,6 +27,10 @@ Using PyTorch's torchvision image classification models, Amazon Web Services (AW
 ## Algorithm Reports <a name="algorithm-reports"></a>
 #### Related class: Data Structures and Algorithms
 In my Data Structures and Algorithms course, we were tasked with writing two in-depth reports on some of the algorithms used for clustering and for feature importance. Both of those reports can be found here, with code used to implement each algorithm and visualizations as well to demonstrate the algorithms. 
+
+## Evolution Simulator <a name="evolution-simulator"></a>
+#### Related class: Deep Learning
+In a team of 5, we developed an evolution simulator game that uses a PyTorch algorithm similar to NEAT to find the optimal neural network weights for a creature to survive in the environment. The creatures must eat the plants in order to gain energy, and they learn how to best navigate the environment using weights which control their turning and direction. 
 
 ## Stroke Prediction <a name="stroke-prediction"></a>
 This was a personal project I did in my spare time to practice with different classification models (Logistic Regression, Linear Support Vector Machines, Decision Tree Classifier, Random Forest Classifier, Gradient Boosting Classifier). Using a medical dataset containing patient data, the goal was to predict whether a patient was likely to have a stroke or not.
