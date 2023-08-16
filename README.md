@@ -1,6 +1,6 @@
 # Welcome to my repository!
 <b>Owner</b>: Joren Libunao, USF MSDS '23, UCSD '16 <br>
-<b>Current role</b>: Data Scientist Intern at Alaska Airlines, Inc.
+<b>Previous role</b>: Data Scientist Intern at Alaska Airlines, Inc.
 
 ## Table of Contents
 - [Introduction](#introduction)
