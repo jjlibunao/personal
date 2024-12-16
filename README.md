@@ -1,11 +1,13 @@
 # Welcome to my repository!
 <b>Owner</b>: Joren Libunao, USF MSDS '23, UCSD '16 <br>
-<b>Previous role</b>: Data Scientist Intern at Alaska Airlines, Inc.
+<b>Current role</b>: Data Scientist at Verra Mobility Corporation
+<b>Previous roles</b>: Data Scientist Intern at Alaska Airlines, Inc., Senior Counterparty Data Analyst at AmeriHome Mortgage Company, LLC
 
 ## Table of Contents
 - [Introduction](#introduction)
 - [Reddit Data Pipeline](#reddit-data-pipeline)
 - [Waste Classifier App](#waste-classifier-app)
+- [Cold Email Generator](#cold-email-generator)
 - [Algorithm Reports](#algorithm-reports)
 - [Evolution Simulator](#evolution-simulator)
 - [Stroke Prediction](#stroke-prediction)
@@ -13,7 +15,7 @@
 - [MLOps Project and Slide Deck](#mlops-project)
 
 ## Introduction <a name="introduction"></a>
-This is my personal repository for projects I worked on during my time as a USF MSDS student that were allowed to be published or just projects I worked on in my own spare time. Please feel free to ask me about other projects I worked on in the program that were not allowed to be published, as I have many more that I would like to share, but due to plagiarism concerns for future cohorts I am not allowed to share them here. I would be happy to share sample code in those instances upon request. 
+This is my personal repository for projects I worked on during my time as a USF MSDS student that were allowed to be published or just projects I worked on in my own spare time after graduating. Please feel free to ask me about other projects I worked on in the program that were not allowed to be published, as I have many more that I would like to share, but due to plagiarism concerns for future cohorts I am not allowed to share them here. I would be happy to share sample code in those instances upon request. 
 
 ## Reddit Data Pipeline <a name="reddit-data-pipeline"></a>
 #### Related class: Distributed Data Systems
@@ -24,6 +26,9 @@ In case you are wondering, the MongoDB Atlas step was only there so I could prac
 ## Waste Classifier App <a name="waste-classifier-app"></a>
 #### Related class: Entrepreneurship in Data Science
 Using PyTorch's torchvision image classification models, Amazon Web Services (AWS), and Flask, my group of 6 including myself built a waste classifier app that would take a photo of waste and determine which bin the item should go into: compost, recycling, or landfill. The app was momentarily deployed on a public link, but has since been removed due to running out of AWS credits. You can find detailed instructions for the app in a markdown file in this folder.
+
+## Cold Email Generator <a name="cold-email-generator"></a>
+This is my first LLM project that I created using a very simple UI thanks to Streamlit and Meta's open-source Llama 3.1 LLM. I also use Chroma DB as my vector database and  The app asks you for a job posting URL, and it will provide you with a cold email example specifically tailored to that job posting that you can then modify however you like. 
 
 ## Algorithm Reports <a name="algorithm-reports"></a>
 #### Related class: Data Structures and Algorithms
